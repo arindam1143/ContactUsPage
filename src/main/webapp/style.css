@@ -1,0 +1,58 @@
+@charset "UTF-8";
+#main {
+    width: 500px;
+    height: auto;
+    background-color: rgb(194, 187, 187);
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+
+}
+
+#form-header {
+    order: 1;
+    padding: 25px;
+
+
+}
+
+#form-body {
+    order: 2;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+label{
+    font-size: large;
+}
+input{
+    width: 370px;
+    height: 30px;
+   
+}
+#email-ptag{
+    color: rgb(169, 172, 175);
+}
+#btn{
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    background-color: rgb(155, 152, 156);
+   
+}
+#btn-div{
+    margin: auto;
+    text-align: center;
+}
+#message{
+	padding:0;
+    width: 370px;
+    height: 70px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

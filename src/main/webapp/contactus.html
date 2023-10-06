@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConctUs Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="form-header">
+            <h1>Contact Us</h1>
+            <p>Please fill this form in a desent manner</p>	
+
+        </div>
+        <div id="form-body">
+            <form action="contactus" method="post">
+			<label>Full Name <span style="color: red;">*</label>
+            <br>
+            <input type="text" name="namefild" id="namefild" required>
+            <br>
+            <label>E-mail <span style="color: red;">*</label>
+            <br>
+            <input type="email" name="emailfild" id="emailfild" required>
+            <br>
+            <p id="email-ptag">employ@gmail.com</p>
+            <label>Message</label>
+            <br>
+            <textarea id="message" name="messagefild">
+
+
+            </textarea>
+            <br>
+            <br>
+            <div id="btn-div">
+                <button id="btn">Submit</button>
+            </div>
+			</form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
